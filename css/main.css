@@ -161,8 +161,11 @@ p.lead {
 	font-family: "roboto-light", sans-serif;
 	font-size: 2.1rem;
 	line-height: 1.714;
-	color: #4a5060;
+	color: #dcd9cd;
 	text-align: justify;
+}
+.price{
+	color: black;
 }
 
 @media only screen and (max-width:768px) {
@@ -1104,13 +1107,13 @@ header {
 /* ------------------------------------------------------------------- 
  * header logo - (_layout.css) 
  * ------------------------------------------------------------------- */
-/*header .logo {*/
+header .logo {
 	position: absolute;
 	left: 26px;
 	top: 30px;
 }
 
-/*header .logo a {*/
+header .logo a {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1534,7 +1537,7 @@ header {
 
 #features .feature-count {
 	display: block;
-	color: #ed254d;
+	color: #ffc0cb;
 	font-family: "roboto-bold", serif;
 	font-size: 4rem;
 	line-height: 1;
@@ -2422,6 +2425,7 @@ footer {
 	text-align: center;
 	padding-bottom: 3rem;
 	position: relative;
+	background-color: #b0c4de;
 }
 
 footer a,
@@ -2502,7 +2506,7 @@ footer a:active {
 	top: 3px;
 }
 
-.footer-info .footer-link-list {
+.footer-info .footer-link-list {  
 	margin: 0 0 3rem 0;
 	padding: 0;
 	list-style: none;
@@ -2529,16 +2533,16 @@ footer a:active {
 
 /* ------------------------------------------------------------------- 
  * go to top - (_layout.scss)
- * ------------------------------------------------------------------- */
-#go-top {
+  ------------------------------------------------------------------- */
+/*#go-top {
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	z-index: 800;
-	display: none; 
+	display: none
 }
 
-#go-top a {
+#go-top a{
 	text-decoration: none;
 	border: none;
 	display: block;
@@ -2558,7 +2562,7 @@ footer a:active {
 #go-top a:hover,
 #go-top a:focus {
 	background: #ce1137;
-}
+}*/
 
 /* ------------------------------------------------------------------- 
  * responsive:
