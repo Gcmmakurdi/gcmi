@@ -810,7 +810,6 @@ button.large,
 
 button.stroke,
 .button.stroke {
-	background: transparent !important;
 	border: 3px solid #313131;
 	line-height: 4.8rem;
 }
@@ -1300,7 +1299,7 @@ header .logo a {
 }
 
 #menu-nav-wrap .nav-list li a {
-	color: rgba(255, 255, 255, 0.25);
+	color: #FCF4FC;
 }
 
 #menu-nav-wrap .nav-list li a:hover,
@@ -1373,7 +1372,7 @@ header .logo a {
 #intro h3 {
 	text-transform: uppercase;
 	letter-spacing: .5rem;
-	color: yellow;
+	color:  #FCE484;
 	margin-bottom: .6rem;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
@@ -1382,19 +1381,21 @@ header .logo a {
 	font-family: "domine-bold", serif;
 	font-size: 5.3rem;
 	line-height: 1.267;
-	color: red;
+	color: #FCAC04;
 	padding: 0 12%;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 #intro .buttons {
 	margin-bottom: 4.2rem;
+	border-radius: 20px;
 }
 
 #intro .buttons .button {
-	border: 3px solid rgba(125, 0, 128);
+	border: 3px solid #f9da4f;
+	background-color: #FCCC04 ;
 	border-radius: 20px;
-	color: #0000ff;
+	color: red;
 	margin: 0 .9rem;
 }
 
@@ -1408,7 +1409,7 @@ header .logo a {
 	vertical-align: bottom;
 	max-width: 840px;
 	width: 100%;
-	box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 -1px 5px rgba(0, 0, 0, ,0.3);
 }
 
 .shadow-overlay {
