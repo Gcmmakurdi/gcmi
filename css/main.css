@@ -1118,10 +1118,10 @@ header .logo a {
 	padding: 0;
 	outline: 0;
 	border: none;
-	width: 96px;
-	height: 20px;
-	/*background: url("../images/logo.png") no-repeat center;*/
-	background-size: 96px 20px;
+	width: 100px;
+	height: 100px;
+	background: url("../images/logo.jpg") no-repeat center;
+	background-size: 100px 100px;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
@@ -1352,7 +1352,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #intro {
 	position: relative;
-	background-image: url(../images/pstsimon.jpg);
+	background-image:url(../images/loud.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -1402,7 +1402,7 @@ header .logo a {
 #intro .buttons .button:hover,
 #intro .buttons .button:focus {
 	border: 3px solid #f9da4f;
-	color: #f9da4f;
+	color: #1CACF4;
 }
 
 #intro img {
@@ -1411,6 +1411,7 @@ header .logo a {
 	width: 100%;
 	box-shadow: 0 -1px 5px rgba(0, 0, 0, ,0.3);
 }
+
 
 .shadow-overlay {
 	position: absolute;
@@ -2223,7 +2224,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #download {
 	position: relative;
-	/*background-image: url(../images/download-bg.jpg);*/
+	background-image: url(../images/input.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center top;
