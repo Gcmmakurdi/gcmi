@@ -101,7 +101,7 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "roboto-black", sans-serif;
-	color: #001835;
+	color: yellow;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -161,7 +161,7 @@ p.lead {
 	font-family: "roboto-light", sans-serif;
 	font-size: 2.1rem;
 	line-height: 1.714;
-	color: #dcd9cd;
+	color: white;
 	text-align: justify;
 }
 .price{
@@ -1120,7 +1120,7 @@ header .logo a {
 	border: none;
 	width: 100px;
 	height: 100px;
-	background: url("../images/logo.jpg") no-repeat center;
+	background-color: yellow;
 	background-size: 100px 50px;
 	font: 0/0 a;
 	text-shadow: none;
@@ -1130,6 +1130,10 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+}
+header .logo h1{
+	color: yellow;
+	text-transform: uppercase;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1540,13 +1544,15 @@ header .logo a {
 
 #features .feature-count {
 	display: block;
-	color: #ffc0cb;
+	color: yellow;
 	font-family: "roboto-bold", serif;
 	font-size: 4rem;
 	line-height: 1;
 	margin-bottom: 2.4rem;
 }
-
+#feature .feature-content, p{
+	color: white;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * features
@@ -1895,6 +1901,9 @@ header .logo a {
 .pricing-content {
 	margin-top: 3rem;
 	max-width: 1080px;
+}
+#pricing .price{
+	color: white;
 }
 
 .pric-content .bgrid {
@@ -2519,6 +2528,9 @@ footer a:active {
 
 .copyright span {
 	display: inline-block;
+}
+.copyright,span{
+	color: white;
 }
 
 .copyright span::after {
