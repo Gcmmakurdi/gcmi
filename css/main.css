@@ -68,7 +68,7 @@ body {
 }
 
 body {
-	background: #0e0e0e;
+	background: #DC1697;
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
@@ -1521,7 +1521,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #features {
 	padding: 15rem 0 12rem;
-	background-color: #6495ed;
+	background-color: #844CD3;
 	overflow: hidden;
 }
 
@@ -1582,7 +1582,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #infos {
-	background: #87ceeb;
+	background: #844CD3;
 }
 
 .info-entry {
@@ -1887,7 +1887,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #pricing {
-	background: #e2e5e7;
+	background: #844CD3;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
 }
@@ -1897,12 +1897,12 @@ header .logo a {
 	max-width: 1080px;
 }
 
-.pricing-content .bgrid {
+.pric-content .bgrid {
 	margin-bottom: 3.9rem;
 	padding: 0 20px;
 }
 
-.pricing-content .price-block {
+.recent-content .price-block {
 	background-color: #FFFFFF;
 	text-align: center;
 	padding: 6rem 0 4.8rem;
@@ -1910,20 +1910,20 @@ header .logo a {
 	position: relative;
 }
 
-.pricing-content .price-block .bottom-part {
+.recent-content .price-block .bottom-part {
 	padding-top: 2.4rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
 
-.pricing-content .price-block .plan-title {
+.recent-content .price-block .plan-title {
 	padding-bottom: 2.4rem;
 	font-size: 2.4rem;
 	font-family: "roboto-bold";
 	position: relative;
 }
 
-.pricing-content .price-block .plan-title::after {
+.recent-content .price-block .plan-title::after {
 	display: block;
 	background-color: rgba(0, 24, 53, 0.3);
 	width: 80px;
@@ -2110,7 +2110,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #testimonials {
 	padding: 12rem 0 10.2rem;
-	background: /*#FFFFFF;*/turquoise;
+	background: #844CD3;
 	text-align: center;
 }
 
@@ -2241,7 +2241,7 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #001835;
+	background: #844CD3;
 	opacity: .85;
 }
 
@@ -2259,7 +2259,7 @@ header .logo a {
 }
 
 #download .lead {
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255,);
 }
 
 #download .button {
@@ -2428,7 +2428,6 @@ footer {
 	text-align: center;
 	padding-bottom: 3rem;
 	position: relative;
-	/*background-color: #b0c4de;*/
 }
 
 footer a,
@@ -2466,7 +2465,7 @@ footer a:active {
 .footer-social-list li a {
 	font-size: 4.2rem;
 	line-height: 4.2rem;
-	color: #FFFFFF;
+	color: turquoise;
 	display: block;
 	padding: 4.2rem 5rem 4.8rem;
 	border-right: 1px solid rgba(255, 255, 255, 0.02);
@@ -2499,7 +2498,7 @@ footer a:active {
 }
 
 .footer-info h4 {
-	color: blue;
+	color: turquoise;
 
 .footer-info h4 i {
 	margin-right: 10px;
@@ -2533,38 +2532,6 @@ footer a:active {
 	display: none;
 }
 
-/* ------------------------------------------------------------------- 
- * go to top - (_layout.scss)
-  ------------------------------------------------------------------- */
-/*#go-top {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	z-index: 800;
-	display: none
-}
-
-#go-top a{
-	text-decoration: none;
-	border: none;
-	display: block;
-	width: 6rem;
-	height: 6.6rem;
-	line-height: 6.6rem;
-	text-align: center;
-	background: #000000;
-	color: #FFFFFF;
-}
-
-#go-top a i {
-	font-size: 1.6rem;
-	line-height: inherit;
-}
-
-#go-top a:hover,
-#go-top a:focus {
-	background: #ce1137;
-}*/
 
 /* ------------------------------------------------------------------- 
  * responsive:
