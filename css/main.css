@@ -101,7 +101,7 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "roboto-black", sans-serif;
-	color: yellow;
+	color: pink;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -1111,7 +1111,7 @@ header .logo {
 	left: 0;
 	top: 0;
 }
-
+/* 
 header .logo a {
 	display: block;
 	margin: 0;
@@ -1120,7 +1120,7 @@ header .logo a {
 	border: none;
 	width: 100px;
 	height: 100px;
-	background-color: yellow;
+	background-color: turquoise;
 	background-size: 100px 50px;
 	font: 0/0 a;
 	text-shadow: none;
@@ -1130,10 +1130,12 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
-}
+} */
 header .logo h1{
-	color: yellow;
+	color: white;
 	text-transform: uppercase;
+	box-shadow: turquoise;
+	cursor: pointer;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1356,7 +1358,8 @@ header .logo h1{
  * ------------------------------------------------------------------- */
 #intro {
 	position: relative;
-	background-image:url(../images/loud.jpg);
+	/* background-image:url(../images/loud.jpg); */
+	background-color: royalblue;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -1376,7 +1379,7 @@ header .logo h1{
 #intro h3 {
 	text-transform: uppercase;
 	letter-spacing: .5rem;
-	color:  #FCE484;
+	color:  whitesmoke;
 	margin-bottom: .6rem;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
@@ -1385,7 +1388,7 @@ header .logo h1{
 	font-family: "domine-bold", serif;
 	font-size: 5.3rem;
 	line-height: 1.267;
-	color: #FCAC04;
+	color: white;
 	padding: 0 12%;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
@@ -1396,10 +1399,10 @@ header .logo h1{
 }
 
 #intro .buttons .button {
-	border: 3px solid #f9da4f;
-	background-color: #FCCC04 ;
+	border: 3px solid burlywood;
+	background-color: darkslateblue;
 	border-radius: 20px;
-	color: red;
+	color: white;
 	margin: 0 .9rem;
 }
 
@@ -1544,7 +1547,7 @@ header .logo h1{
 
 #features .feature-count {
 	display: block;
-	color: yellow;
+	color: pink;
 	font-family: "roboto-bold", serif;
 	font-size: 4rem;
 	line-height: 1;
@@ -1834,7 +1837,7 @@ header .logo h1{
 
 #stats .icon-part i {
 	font-size: 6rem;
-	color: #f9da4f;
+	color: pink;
 	object-position: center;
 }
 
@@ -2356,7 +2359,7 @@ header .logo h1{
 
 #subscribe #mc-form .button:hover,
 #subscribe #mc-form .button:focus {
-	background: #f9da4f;
+	background: pink;
 }
 
 #subscribe #mc-form label {
@@ -2380,7 +2383,7 @@ header .logo h1{
  * subscribe 
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
-	#subscribe .subscribe-content {
+	#subscribe.subscribe-content {
 		max-width: 600px;
 	}
 
