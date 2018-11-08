@@ -1407,7 +1407,7 @@ header .logo h1{
 
 #intro .buttons .button {
 	border: 3px solid burlywood;
-	background-color: darkslateblue;
+	background-color: gold;
 	border-radius: 20px;
 	color: white;
 	margin: 0 .9rem;
@@ -1538,6 +1538,15 @@ header .logo h1{
 	background-color: #844CD3;
 	overflow: hidden;
 }
+#features .lead{
+	box-shadow: 0 8px 16px 0px black;
+	transition:  0.3s step-end;
+	padding: 2px 16px;
+}
+#features .lead:hover{
+	box-shadow: 4px 8px 16px 4px black;
+	width: 100%;
+}
 
 #features .features-wrap {
 	margin-top: 1.5rem;
@@ -1627,7 +1636,6 @@ header .logo h1{
 	transform: translateY(-50%);
 	z-index: 600;
 }
-
 .info-entry:nth-child(odd) .media-wrap {
 	left: 50%;
 	padding-left: 0;
@@ -2156,8 +2164,16 @@ header .logo h1{
 	font-size: 3rem;
 	line-height: 1.6;
 }
-
-#testimonials .slides li .author-info {
+#testimonials .slides .card{
+		box-shadow: 0 8px 16px 0px black;
+		transition:  0.3s step-end;
+		padding: 2px 16px;
+	}
+#testimonials .slides .card:hover{
+		box-shadow: 4px 8px 16px 4px black;
+		cursor: pointer;
+}
+#testimonials .slides li .author-info .card {
 	font-size: 1.6rem;
 	font-family: "roboto-black", sans-serif;
 	font-style: normal;
