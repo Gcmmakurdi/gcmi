@@ -1365,11 +1365,12 @@ header .logo h1{
  * ------------------------------------------------------------------- */
 #intro {
 	position: relative;
-	/* background-image:url(../images/pst.jpg); */
-	background-color: royalblue;
+	background-image:url(../images/pst.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center top;
+	width: 100%;
+	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1419,25 +1420,19 @@ header .logo h1{
 	color: #1CACF4;
 }
 
-#intro img {
-	vertical-align: bottom;
-	max-width: 840px;
-	width: 100%;
-	box-shadow: 0 -1px 5px rgba(0, 0, 0, ,0.3);
-}
-
 
 .shadow-overlay { 
 	position: absolute;
+	background: blue;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .5;
-	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+	opacity: .35;
+	/* background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%); */
+	/* background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%); */
+	/* background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%); */
+	/* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0); */
 } 
 
 /* ------------------------------------------------------------------- 
@@ -1446,6 +1441,7 @@ header .logo h1{
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1024px) {
 	#intro {
+		background-image:url(../images/pst1.jpg);
 		padding-top: 15rem;
 	}
 
@@ -1456,6 +1452,7 @@ header .logo h1{
 }
 @media only screen and (max-width:768px) {
 	#intro {
+		background-image:url(../images/pst1.jpg);
 		padding-top: 13.8rem;
 	}
 
@@ -1471,6 +1468,7 @@ header .logo h1{
 }
 @media only screen and (max-width:600px) {
 	#intro {
+		background-image:url(../images/pst1.jpg);
 		padding-top: 13.2rem;
 	}
 
