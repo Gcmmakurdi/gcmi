@@ -1409,8 +1409,8 @@ header .logo h1{
 }
 
 #intro .buttons .button {
-	border: 3px solid burlywood;
-	background-color: gold;
+	border: 3px solid whitesmoke;
+	background-color:blue;
 	border-radius: 20px;
 	color: white;
 	margin: 0 .9rem;
@@ -1641,6 +1641,15 @@ header .logo h1{
 	left: 50%;
 	padding-left: 0;
 	padding-right: 20px;
+}
+.col-six p{
+	color: blue;
+}
+.text-part .button{
+	background-color: blue;
+}
+.text-part .button p{
+	color: white;
 }
 
 .info-entry:nth-child(odd) .text-part {
@@ -1922,7 +1931,7 @@ header .logo h1{
 	max-width: 1080px;
 }
 #pricing .price{
-	color: white;
+	color: blue;
 }
 
 .pric-content .bgrid {
@@ -2301,8 +2310,8 @@ header .logo h1{
 }
 
 #download .button {
-	background: #FFFFFF;
-	color: #001835;
+	background: blue;
+	color: white;
 	margin: .6rem 0 1.5rem 0;
 }
 
@@ -2503,7 +2512,7 @@ footer a:active {
 .footer-social-list li a {
 	font-size: 4.2rem;
 	line-height: 4.2rem;
-	color: turquoise;
+	color:blue;
 	display: block;
 	padding: 4.2rem 5rem 4.8rem;
 	border-right: 1px solid rgba(255, 255, 255, 0.02);
@@ -2535,8 +2544,8 @@ footer a:active {
 	color: #FFFFFF;
 }
 
-.footer-info h4 {
-	color: turquoise;
+.footer-info h4 p{
+	color:blue;
 }
 
 .footer-info h4 i {
@@ -2544,6 +2553,9 @@ footer a:active {
 	font-size: 1.2em;
 	position: relative;
 	top: 3px;
+}
+.col-four p{
+	color: blue;
 }
 
 .footer-info .footer-link-list {  
@@ -2558,6 +2570,7 @@ footer a:active {
 
 .copyright span {
 	display: inline-block;
+	color: blue;
 
 }
 
