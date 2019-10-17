@@ -68,7 +68,7 @@ body {
 }
 
 body {
-	background: #DC1697;
+	background: whitesmoke;
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
@@ -101,7 +101,7 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "roboto-black", sans-serif;
-	color: pink;
+	color:blue;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -582,7 +582,6 @@ select {
 	padding: 1.5rem 2.5rem;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
 	color: rgba(0, 0, 0, 0.7);
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.5rem;
@@ -974,6 +973,9 @@ input::-moz-focus-inner {
 .stats-tabs {
 	padding: 0;
 	margin: 3rem 0;
+}
+time{
+	color:white;
 }
 
 .stats-tabs li {
@@ -1441,7 +1443,7 @@ header .logo h1{
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1024px) {
 	#intro {
-		background-image:url(../images/pst1.jpg);
+		background-image:url(../images/pst.jpg);
 		padding-top: 15rem;
 	}
 
@@ -1452,7 +1454,7 @@ header .logo h1{
 }
 @media only screen and (max-width:768px) {
 	#intro {
-		background-image:url(../images/pst1.jpg);
+		background-image:url(../images/pst.jpg);
 		padding-top: 13.8rem;
 	}
 
@@ -1468,7 +1470,7 @@ header .logo h1{
 }
 @media only screen and (max-width:600px) {
 	#intro {
-		background-image:url(../images/pst1.jpg);
+		background-image:url(../images/pst.jpg);
 		padding-top: 13.2rem;
 	}
 
@@ -1533,12 +1535,13 @@ header .logo h1{
  * ------------------------------------------------------------------- */
 #features {
 	padding: 15rem 0 12rem;
-	background-color: #844CD3;
+	background-color:whitesmoke;
 	overflow: hidden;
 }
 #features .lead{
 	box-shadow: 0 8px 16px 0px black;
 	transition:  0.3s step-end;
+	background-color: rgba(18, 35,129);
 	padding: 2px 16px;
 }
 #features .lead:hover{
@@ -1561,7 +1564,7 @@ header .logo h1{
 
 #features .feature-count {
 	display: block;
-	color: pink;
+	color:blue;
 	font-family: "roboto-bold", serif;
 	font-size: 4rem;
 	line-height: 1;
@@ -1605,7 +1608,7 @@ header .logo h1{
  *
  * ------------------------------------------------------------------- */
 #infos {
-	background: #844CD3;
+	background:white;
 }
 
 .info-entry {
@@ -1814,7 +1817,7 @@ header .logo h1{
  *
  * ------------------------------------------------------------------- */
 #stats {
-	background: #001835;
+	background:rgba(18, 35,129);
 	padding-top: 7.2rem;
 	padding-bottom: 4.8rem;
 	text-align: center;
@@ -1909,7 +1912,7 @@ header .logo h1{
  *
  * ------------------------------------------------------------------- */
 #pricing {
-	background: #844CD3;
+	background:whitesmoke;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
 }
@@ -2135,7 +2138,7 @@ header .logo h1{
  * ------------------------------------------------------------------- */
 #testimonials {
 	padding: 12rem 0 10.2rem;
-	background: #844CD3;
+	background:white;
 	text-align: center;
 }
 
@@ -2165,6 +2168,8 @@ header .logo h1{
 #testimonials .slides .card{
 		box-shadow: 0 8px 16px 0px black;
 		transition:  0.3s step-end;
+		background-color:rgba(18, 35,129);
+		opacity: 85;
 		padding: 2px 16px;
 	}
 #testimonials .slides .card:hover{
@@ -2532,6 +2537,7 @@ footer a:active {
 
 .footer-info h4 {
 	color: turquoise;
+}
 
 .footer-info h4 i {
 	margin-right: 10px;
